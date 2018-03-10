@@ -4,7 +4,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Firefox {
 	
 public static void main(String[] args) {
-		//Giving chrome webdriver path
+		//Giving firefox webdriver path
 		String projectLocation = System.getProperty("user.dir");
 		System.setProperty("webdriver.gecko.driver", projectLocation+"/lib/geckodriver/geckodriver.exe");
 					
